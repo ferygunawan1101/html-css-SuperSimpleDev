@@ -1,4 +1,8 @@
 <style>
+  body {
+    padding-bottom: 500px;
+  }
+
   .subscribe-button {
     background-color: rgb(200, 0, 0);
     color: white;
@@ -67,6 +71,78 @@
     opacity: 0.5;
   }
 
+  .back-next-button {
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: opacity 0.15s;
+  }
+
+  .back-next-button:hover {
+    opacity: 0.8;
+  }
+
+  .back-next-button:active {
+    opacity: 0.5;
+  }
+
+  .page-number {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  hr {
+    margin-top: 15px;
+  }
+
+  .stretch-button {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: padding 0.3s;
+  }
+
+  .stretch-button:hover {
+    padding: 24px 40px;
+  }
+
+  .shadow-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .shadow-button:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  .shadow-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+
+  .one-two-three-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 7px;
+    cursor: pointer;
+    transition: padding 0.15s, margin 0.15s;
+  }
+
+  .one-two-three-button:hover {
+    padding: 5px 15px;
+    margin: 0 2px;
+  }
+
 </style>
 
 <button class="subscribe-button">
@@ -79,4 +155,68 @@
 
 <button class="tweet-button">
   Tweet
+</button>
+
+<hr />
+
+<p>4h. Pagination</p>
+
+<button class="back-next-button">
+  Back
+</button>
+
+<a href="" class="page-number">
+  1
+</a>
+
+<a href="" class="page-number">
+  2
+</a>
+
+<a href="" class="page-number">
+  3
+</a>
+
+<a href="" class="page-number">
+  4
+</a>
+
+<a href="" class="page-number">
+  5
+</a>
+
+<button class="back-next-button">
+  Next
+</button>
+
+<hr />
+
+<p>4i. Stretch</p>
+
+<button class="stretch-button">
+  Stretch
+</button>
+
+<hr />
+
+<p>4j. 3D Click</p>
+
+<button class="shadow-button">
+  Shadow
+</button>
+
+<hr />
+
+<p>4k. Margin and padding together</p>
+
+<button class="one-two-three-button">
+  One
+</button>
+
+<button class="one-two-three-button">
+  Two
+</button>
+
+<button class="one-two-three-button">
+  Three
 </button>
