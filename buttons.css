@@ -1,0 +1,143 @@
+body {
+  padding-bottom: 500px;
+}
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(0, 166, 255);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(0, 153, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s,
+    color 0.3s;
+  vertical-align: top;
+}
+
+.join-button:hover {
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(0, 145, 255);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: box-shadow 0.2s;
+  vertical-align: top;
+}
+
+.tweet-button:hover {
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active {
+  opacity: 0.5;
+}
+
+.back-next-button {
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: opacity 0.15s;
+}
+
+.back-next-button:hover {
+  opacity: 0.8;
+}
+
+.back-next-button:active {
+  opacity: 0.5;
+}
+
+.page-number {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+hr {
+  margin-top: 15px;
+}
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  transition: padding 0.3s;
+}
+
+.stretch-button:hover {
+  padding: 24px 40px;
+}
+
+.shadow-button {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.shadow-button:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-button:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+.one-two-three-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: padding 0.15s, margin 0.15s;
+}
+
+.one-two-three-button:hover {
+  padding: 5px 15px;
+  margin: 0 2px;
+}
