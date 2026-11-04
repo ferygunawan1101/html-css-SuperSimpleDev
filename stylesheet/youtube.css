@@ -1,0 +1,48 @@
+body {
+  padding-bottom: 500px;
+}
+
+.preview-div {
+  display: inline-block;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+  margin-right: 5px;
+}
+
+.img-div {
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+}
+
+.thumbnail {
+  width: 300px;
+}
+
+.channel-div {
+  display: inline-block;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 2px;
+}
+
+.channel-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.text-div {
+  display: inline-block;
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+}
+
+.text-1 {
+  margin-top: 0;
+  font-weight: bold;
+  width: 250px;
+  line-height: 20px;
+}
